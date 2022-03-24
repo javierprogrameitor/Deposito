@@ -15,13 +15,15 @@ public class Main {
 	    CCuenta cuenta1;
        
 
-        cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
+        cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",15000,0);
         // Creo la cuenta con un saldo de 2500
         
         /**
          * LLamada al método operativa_cuenta
          */
-        operativa_cuenta(cuenta1, 2300);
+        operativa_cuenta(cuenta1, 150000);
+        
+        //Creo una nueva cuenta para realizar otra prueba con GIT
 		
 	}
 
